@@ -1,1 +1,1 @@
-(function(){ angular.module('maha.countries').config(function(CountriesProvider){CountriesProvider.setCountriesList({"BM":"Bemuda","BJ":"Binin","CN":"Chaina","KM":"Comorosu","HT":"Hati","LY":"Libyia","MV":"Maldivesa","NG":"Nigeria"});});}).call(this);
+(function(){ angular.module('maha.countries').config(['CountriesProvider', function(CountriesProvider){CountriesProvider.setCountriesList({"BJ":"Binin","BM":"Bemuda","CN":"Chaina","HT":"Hati","KM":"Comorosu","LY":"Libyia","MV":"Maldivesa","NG":"Nigeria"});}]);}).call(this);

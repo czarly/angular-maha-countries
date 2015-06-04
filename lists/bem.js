@@ -1,1 +1,1 @@
-(function(){ angular.module('maha.countries').config(function(CountriesProvider){CountriesProvider.setCountriesList({"ZM":"Zambia"});});}).call(this);
+(function(){ angular.module('maha.countries').config(['CountriesProvider', function(CountriesProvider){CountriesProvider.setCountriesList({"ZM":"Zambia"});}]);}).call(this);
